@@ -1,0 +1,76 @@
+.btn-primary , .bg-primary{
+    background: linear-gradient(45deg,black,dodgerblue);
+}
+.btn-success , .bg-success{
+    background: linear-gradient(45deg,black,limegreen);
+}
+.btn-warning , .bg-warning{
+    background: linear-gradient(45deg,black,coral);
+}
+.btn-danger , .bg-danger{
+    background: linear-gradient(45deg,black,red);
+}
+.btn-secondary , .bg-secondary{
+    background: linear-gradient(45deg,black,purple);
+}
+.btn-info , .bg-info{
+    background: linear-gradient(45deg,black,lightskyblue);
+}
+.btn-dark , .bg-dark{
+    background: linear-gradient(45deg,black,darkslategray);
+}
+.btn-light , .bg-light{
+    background-color: #999999;
+}
+.btn-teal , .bg-teal{
+    background-color: #002222 !important;
+}
+.text-teal{
+    color: #002222 !important;
+}
+.carousel .carousel-indicators li {
+    width: 40px;
+    height: 5px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.c_image{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002222;
+}
+.c_heading{
+    text-shadow: 0 0 2px white;
+}
+/* ---------------------------- Trainers Section --------------------- */
+.t_image{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002222;
+    margin-top: -50px;
+}
+.t_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002222;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #002222;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover .fab{
+    color: white !important;
+}
+/* ---------------------------- Courses Section --------------------- */
+.c_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002222;
+    transition: all 0.5s;
+}
+.c_card:hover{
+    background-color: #002222;
+    color: white;
+    transform: perspective(400px) rotateY(-10deg);
+}
+.c_card:hover .fa , .c_card:hover h3 ,  .c_card:hover p ,  .c_card:hover .fab{
+    color: white !important;
+}
